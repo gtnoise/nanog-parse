@@ -1,0 +1,18 @@
+- malformed as-path issue
+  o some vendors accept leaked private confederation info
+  o others drop the routes, which can result in large amounts of instability
+
+
+- instability often results in reachability problems b/c folks disconnect
+- same for visibility: first reaction is always to unplug/filter, esp
+  in response to worms
+
+- rolling back configuration
+
+- leaks at NANOG itself
+
+- inquiries on prefix filters
+
+- inability to pinpoint problem (even if its in own network!)
+
+- 69/8 allocation caused a huge problem w/people not updating filters

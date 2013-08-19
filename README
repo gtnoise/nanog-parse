@@ -1,0 +1,15 @@
+nanog-fetch.pl - fetch the emails from the HTML archives and save them into 
+		 directories.
+
+nanog-html2txt.pl - convert each fetched email into mbox format.
+
+nanog-longitude.pl - this inserts the nanog emails (mbox format) into a
+		     database if their thread topic matches a certain set of
+		     keywords
+
+displayemail.cgi - 
+e.g., http://ginseng.lcs.mit.edu/nanog/displayemail.cgi?num=851&get=1&det=1
+	(to view everything that's determinism)
+       http://ginseng.lcs.mit.edu/nanog/displayemail.cgi?num=1
+
+analyze.pl - generates a latex table that summarizes everything
